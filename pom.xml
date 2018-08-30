@@ -8,4 +8,10 @@
 	<artifactId>sparkjava-hello-world</artifactId>
 	<version>1.0</version>
 	<packaging>war</packaging>
+	<plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-war-plugin</artifactId>
+      </plugin>
+    </plugins>	
 </project>
